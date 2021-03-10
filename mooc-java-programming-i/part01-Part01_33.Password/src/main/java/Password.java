@@ -7,6 +7,14 @@ public class Password {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
-        //did i commit?
+        System.out.println("pasword?");
+        String input1 = scan.nextLine();
+        
+        if(input1.equals("Caput Draconis")) {
+            System.out.println("Welcome");
+        }
+        else {
+            System.out.println("off with you!");
+        }
     }
 }

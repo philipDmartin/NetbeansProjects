@@ -8,7 +8,7 @@ public class CountingToHundred {
 
         int input = Integer.valueOf(scanner.nextLine());
         
-        for (int i = input; i < 101; i++) {
+        for (int i = input; i < 100; i++) {
             System.out.println(i);
         }
     }

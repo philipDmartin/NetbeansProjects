@@ -9,7 +9,7 @@ public class SumOfNumbers {
         int sum = 0;
         
         while(true) {
-            System.out.println("Give a number: (0) exits");
+            System.out.println("Give a number:");
             
             int input = Integer.valueOf(scanner.nextLine());
             
@@ -22,6 +22,6 @@ public class SumOfNumbers {
             }
         }
         
-        System.out.println("Sum of inputs = " + sum);
+        System.out.println("Sum of the numbers: " + sum);
     }
 }

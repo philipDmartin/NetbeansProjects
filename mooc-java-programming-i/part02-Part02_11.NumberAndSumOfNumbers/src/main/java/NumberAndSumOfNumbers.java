@@ -10,7 +10,7 @@ public class NumberAndSumOfNumbers {
         int amount = 0;
         
         while(true) {
-            System.out.println("Give a number: (0) exits");
+            System.out.println("Give a number:");
             
             int input = Integer.valueOf(scanner.nextLine());
             
@@ -24,7 +24,7 @@ public class NumberAndSumOfNumbers {
             }
         }
         
-        System.out.println("Sum of inputs = " + sum);
-        System.out.println("Amount of inputs = " + amount);
+        System.out.println("Number of numbers: " + amount);
+        System.out.println("Sum of the numbers: " + sum);
     }
 }

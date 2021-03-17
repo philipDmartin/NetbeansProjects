@@ -9,7 +9,7 @@ public class NumberOfNumbers {
         int ones = 0;
         
         while(true) {
-            System.out.println("Give a number: (0) exits");
+            System.out.println("Give a number:");
             
             int input = Integer.valueOf(scanner.nextLine());
             
@@ -22,6 +22,6 @@ public class NumberOfNumbers {
             }
         }
         
-        System.out.println("Total inputs = " + ones);
+        System.out.println("Number of numbers: " + ones);
     }
 }

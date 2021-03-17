@@ -15,9 +15,8 @@ public class OnlyPositives {
                 break;
             }
             if(input < 0) {
-                System.out.println("Unsuitable number: Try Again!");
+                System.out.println("Unsuitable number:");
             }
         }
-        System.out.println("Good job");
     }
 }
